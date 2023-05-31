@@ -47,6 +47,10 @@
         padding: 25px 41px;
         letter-spacing:10%;
     }
+    .link{
+        color: inherit;
+        text-decoration: none;
+    }
 
     
     
