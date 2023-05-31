@@ -1,0 +1,92 @@
+:root{
+    --accent-color:#34547A;
+    --heading-color:#000000;
+    --text-color:#727272;
+    --accent-text-color:#FFFFFF;
+    --form-text-color:#5F5D5D;
+
+    --bg-color:#EEEFF1;
+
+    font-family:'Roboto', sans-serif;
+    font-size:14px;
+}
+
+    .container{
+        margin: 0 auto;
+    }
+    .big-heading,
+    .small-heading{
+        font-weight:500;
+        color: var(--heading-color);
+    }
+    .big-heading{
+        font-size:3rem;
+        line-height: 1.45;
+
+    }
+
+    .small-heading{
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .text,
+    .btn{
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    .text{
+        font-weight: 400;
+        color: var(--text-color);
+    }
+
+    .btn{
+        background-color: var(--accent-color);
+        color: var(--accent-text-color);
+        padding: 25px 41px;
+        letter-spacing:10%;
+    }
+
+    
+    
+    /* tablet */
+    @media screen and (min-width:576px){
+        :root{
+            font-size:15px;
+        }
+        .container{
+            max-width: 540px;
+        }
+        
+    }
+
+    @media screen and (min-width:768px){
+        .container{
+            max-width: 730px;
+        }
+    }
+    
+    /* PC */
+    @media screen and (min-width:992px){
+        :root{
+            font-size:16px;
+        }
+
+        .container{
+            max-width: 950px;
+        }
+
+    }
+
+    @media screen and (min-width:1200px){
+        .container{
+            max-width: 1140px;
+        }
+    }
+
+    @media screen and (min-width:1400px){
+        .container{
+            max-width: 1320px;
+        }
+    }
