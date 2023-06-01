@@ -6,7 +6,7 @@
 .greeting-grid{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 20px;
+    gap: 40px 0;
 }
 .greeting-article{
     
@@ -29,6 +29,9 @@
 @media screen and (min-width:992px){
     .greeting-img-wrapper{
         grid-column: 1 / span 4;
+    }
+    .greeting-grid{
+        gap: 0 40px;
     }
 
     .greeting-article{
