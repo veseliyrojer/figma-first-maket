@@ -8,13 +8,54 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/js/index.js"></script>
     <title>WD</title>
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <h1 class="logo"><a class="logo-link">WD</a></h1>
+        <div class="container flex-header">
+            <h1 class="logo"><a class="logo-link link">WD</a></h1>
+            <nav class="nav">
+                <button class="burger" id="burger">
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                </button>
+                <ul id="nav-list" class="nav-list">
+                    <li class="nav-list-item"><a href="#" class="nav-link link">ГЛАВНАЯ</a></li>
+                    <li class="nav-list-item"><a href="#" class="nav-link link">ОБ АВТОРЕ</a></li>
+                    <li class="nav-list-item"><a href="#" class="nav-link link">РАБОТЫ</a></li>
+                    <li class="nav-list-item"><a href="#" class="nav-link link">ПРОЦЕСС</a></li>
+                    <li class="nav-list-item"><a href="#" class="nav-link link">КОНТАКТИ</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
+
+    <section class="greeting-screen">
+        <div class="container greeting-grid">
+            <div class="greeting-img-wrapper">
+                <img src="assets/img/laptop-order-svgrepo-com.svg" alt="Laptop" class="greeting-img">
+            </div>
+            <article class="greeting-article centered-text">
+                <h2 class="big-heading">Дизайн и верстка</h2>
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo atque, modi quos provident, molestiae in repudiandae magni magnam amet officiis.</p>
+                <button class="btn ">НАПИСАТЬ МНЕ</button>
+            </article>
+        </div>
+    </section>
+
+    <section class="about-me">
+        <div class="container">
+            <article class="about-me-article">
+                <h2 class="small-heading centered-text">
+                    Обо мне
+                </h2>
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, reprehenderit aliquam nam vel aut quas sed nulla laboriosam, necessitatibus molestiae praesentium. 
+                </p>
+  
+            </article>
+        </div>
+    </section>
 </body>
 </html>

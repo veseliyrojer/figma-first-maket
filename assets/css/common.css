@@ -20,14 +20,16 @@
         color: var(--heading-color);
     }
     .big-heading{
-        font-size:3rem;
+        font-size:2.5rem;
         line-height: 1.45;
+        margin-bottom: 2.5rem;
 
     }
 
     .small-heading{
         font-size: 2rem;
         line-height: 1.2;
+        margin-bottom: 2rem;
     }
 
     .text,
@@ -45,13 +47,18 @@
         background-color: var(--accent-color);
         color: var(--accent-text-color);
         padding: 25px 41px;
-        letter-spacing:10%;
+        letter-spacing:0.2em;
+        border: none;
+        margin-top: 2.5rem;
     }
     .link{
         color: inherit;
         text-decoration: none;
     }
 
+    .centered-text{
+        text-align: center;
+    }
     
     
     /* tablet */
@@ -81,6 +88,12 @@
             max-width: 950px;
         }
 
+        .small-heading{
+            margin-bottom: 3rem;
+        }
+        .big-heading{
+            font-size:3rem;
+        }
     }
 
     @media screen and (min-width:1200px){
