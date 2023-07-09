@@ -2,4 +2,6 @@
 @import './common.css';
 @import './header.css';
 @import './about-me.css';
-@import './greeting-screen.css'
+@import './greeting-screen.css';
+@import './count-projects.css';
+@import './my-skills.css'

@@ -5,6 +5,8 @@
     --accent-text-color:#FFFFFF;
     --form-text-color:#5F5D5D;
 
+    --progress-bcg-color:#C4C4C4;
+
     --bg-color:#EEEFF1;
 
     font-family:'Roboto', sans-serif;
@@ -59,6 +61,12 @@
     .centered-text{
         text-align: center;
     }
+    .align-left{
+        text-align: left;
+    }
+    .align-right{
+        text-align: right;
+    }
     
     
     /* tablet */
@@ -97,9 +105,20 @@
     }
 
     @media screen and (min-width:1200px){
+        :root{
+            font-size:17px;
+        }
         .container{
             max-width: 1140px;
         }
+
+        .small-heading{
+            margin-bottom: 3.5rem;
+        }
+        .big-heading{
+            font-size:3.5rem;
+        }
+        
     }
 
     @media screen and (min-width:1400px){
